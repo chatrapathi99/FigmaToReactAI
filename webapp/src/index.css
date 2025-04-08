@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* SignUpPage.css */
+
 .signup-container {
   min-height: 100vh;
   background-color: #f3f4f6; /* bg-gray-100 */
@@ -143,4 +145,8 @@
 }
 
 .signup-text{
-    margin
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: #4b5563;
+}
