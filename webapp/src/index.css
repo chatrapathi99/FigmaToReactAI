@@ -1,3 +1,146 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.signup-container {
+  min-height: 100vh;
+  background-color: #f3f4f6; /* bg-gray-100 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-card {
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 2rem; /* p-8 */
+  width: 24rem; /* w-96 */
+}
+
+.signup-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600; /* font-semibold */
+  text-align: center;
+  margin-bottom: 1rem; /* mb-4 */
+  color: #1f2937; /* text-gray-800 */
+}
+
+.signup-description {
+  text-align: center;
+  color: #4b5563; /* text-gray-600 */
+  margin-bottom: 1.5rem; /* mb-6 */
+}
+
+.signup-label {
+  display: block;
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+  color: #374151; /* text-gray-700 */
+}
+
+.signup-input {
+  margin-top: 0.25rem; /* mt-1 */
+  display: block;
+  width: 100%;
+  padding: 0.5rem; /* p-2 */
+  border: 1px solid #d1d5db; /* border border-gray-300 */
+  border-radius: 0.25rem; /* rounded */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.signup-input:focus {
+  outline: none;
+  border-color: #6366f1; /* focus:border-indigo-500 */
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25); /* focus:ring focus:ring-indigo-200 */
+}
+
+.signup-checkbox {
+  margin-right: 0.5rem; /* mr-2 */
+  border-radius: 0.25rem; /* rounded */
+  color: #6366f1; /* text-indigo-600 */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.signup-checkbox:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25); /* focus:ring focus:ring-indigo-200 */
+}
+
+.signup-checkbox-label {
+  font-size: 0.875rem; /* text-sm */
+  color: #374151; /* text-gray-700 */
+}
+
+.signup-button {
+  width: 100%;
+  background-color: #4f46e5; /* bg-indigo-600 */
+  color: white;
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 0.5rem 0; /* py-2 */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.signup-button:hover {
+  background-color: #4338ca; /* hover:bg-indigo-700 */
+}
+
+.signup-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25); /* focus:ring focus:ring-indigo-200 */
+}
+
+.signup-button:active {
+  background-color: #3730a3; /* active:bg-indigo-800 */
+}
+
+.signup-or-divider {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0; /* my-4 */
+}
+
+.signup-or-divider hr {
+  flex-grow: 1;
+  border-color: #d1d5db; /* border-gray-300 */
+}
+
+.signup-or-text {
+  margin: 0 0.5rem; /* mx-2 */
+  color: #4b5563; /* text-gray-600 */
+}
+
+.social-button {
+  width: 100%;
+  border: 1px solid #d1d5db; /* border border-gray-300 */
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 0.5rem 0; /* py-2 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem; /* mb-2 */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.social-button:hover {
+  background-color: #f9fafb; /* hover:bg-gray-50 */
+}
+
+.social-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25); /* focus:ring focus:ring-indigo-200 */
+}
+
+.social-button-text {
+  margin-right: 0.5rem; /* mr-2 */
+  font-size: 0.875rem; /* text-sm */
+  color: #374151; /* text-gray-700 */
+}
+
+.login-link {
+  margin-left: 0.25rem; /* ml-1 */
+  color: #4f46e5; /* text-indigo-600 */
+  font-weight: 600; /* font-semibold */
+}
+
+.signup-text{
+    margin
